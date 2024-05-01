@@ -2,11 +2,13 @@
 const Banner = () => {
     return (
         <div >
-       <div className="hero h-96">
-  <video autoPlay loop muted>
+       <div className="hero">
+ <div  >
+ <video autoPlay loop muted width="full" height="600">
     <source src="../../public/-f8f8-4a60-bda2-7982b8d7a898.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
+ </div>
   <div className="hero-overlay bg-opacity-60">
    <h1 className="text-center mt-52 text-white">Seamlessly connecting you to the heartbeat of India's prime properties.</h1>
    <h1 className="text-center text-white mt-7 font-extrabold text-4xl">
