@@ -3,6 +3,7 @@ import {
   } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import Home from "../Home/Home";
+import BuyerScreens from "../BuyerScreens/BuyerScreens";
   
   export const router = createBrowserRouter([
     {
@@ -11,7 +12,11 @@ import Home from "../Home/Home";
       children:[
         {
             path:"/",
-            element:<Home></Home>
+            element:<Home></Home>,
+        },
+        {
+          path:"/buyerscreens",
+          element:<BuyerScreens></BuyerScreens>
         }
       ]
     },

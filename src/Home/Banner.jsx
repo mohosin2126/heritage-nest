@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -13,7 +14,7 @@ const Banner = () => {
             <p>Seamlessly connecting you to the heartbeat of India's prime properties.</p>
             <h1 className=" text-5xl font-bold my-10">Your Portal to India's <br />Exquisite Real Estate</h1>
 
-            <button className="btn btn-error text-lg border-0 text-white hover:text-black   bg-blue-500 "> <img src="https://i.ibb.co/QJ7mZpC/Magnifer.png" alt="" />Find Property</button>
+           <Link to="/buyerscreens"> <button className="btn btn-error text-lg border-0 text-white hover:text-black   bg-blue-500 "> <img src="https://i.ibb.co/QJ7mZpC/Magnifer.png" alt="" />Find Property</button></Link>
           </div>
         </div>
       </div>
