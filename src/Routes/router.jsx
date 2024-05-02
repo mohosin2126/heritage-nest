@@ -7,11 +7,13 @@ import BuyerScreens from "../BuyerScreens/BuyerScreens";
 import SearchResult from "../BuyerSearchResult/SearchResult";
 import About from "../AboutUs/About";
 import Details from "../PropertyDetails.jsx/Details";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout></Layout>,
+    element: <Layout></Layout>, 
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
