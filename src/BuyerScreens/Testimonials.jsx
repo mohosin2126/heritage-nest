@@ -53,7 +53,7 @@ const Testimonials = () => {
             slidesToSlide={3}
             swipeable
         >
-            <div className="p-5 bg-blue-100">
+            <div className="p-5 bg-blue-50">
                 <div className="rating rating-md">
                     <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-4" className="mask mask-star-2 bg-orange-400" />
@@ -66,7 +66,7 @@ const Testimonials = () => {
                 <p className="text-black text-xl font-semibold">Tony Stark</p>
                 <p className="text-[#818181] font-semibold">Marketing manager, XYZ</p>
             </div>
-            <div className="p-5 bg-blue-100">
+            <div className="p-5 bg-blue-50">
                 <div className="rating rating-md">
                     <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />

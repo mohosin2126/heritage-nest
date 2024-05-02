@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const BuyerScreensBanner = () => {
@@ -7,7 +8,7 @@ const BuyerScreensBanner = () => {
                 <div className="relative">
                     <img className="w-full" src="https://i.ibb.co/pKBVSTZ/buyer-Banner.jpg" alt="" />
                 </div>
-                <div className="max-w-3xl mx-auto bg-white text-black p-8 lg:absolute z-40 left-0 right-0 top-40">
+                <div className="max-w-3xl mx-auto bg-white h-56 text-black p-8 lg:absolute z-40 left-0 right-0 top-36">
                     <div className="flex gap-4">
                         <p className="text-[#0059B1] border-b-[#0059B1] border-b-2  font-medium">Buy</p>
                         <p>Rent</p>
@@ -34,7 +35,7 @@ const BuyerScreensBanner = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>  Your Location</div>
-                                <label className="input input-bordered border-0 h-12 bg-blue-100  flex items-center gap-2">
+                                <label className="input input-bordered border-0 h-12 bg-blue-50  flex items-center gap-2">
                                     <input type="text" className="grow" />
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.43057 8.51192C4.70014 8.19743 5.17361 8.161 5.48811 8.43057L12 14.0122L18.5119 8.43057C18.8264 8.16101 19.2999 8.19743 19.5695 8.51192C19.839 8.82642 19.8026 9.29989 19.4881 9.56946L12.4881 15.5695C12.2072 15.8102 11.7928 15.8102 11.5119 15.5695L4.51192 9.56946C4.19743 9.29989 4.161 8.82641 4.43057 8.51192Z" fill="#EE6611" />
@@ -55,7 +56,7 @@ const BuyerScreensBanner = () => {
                                     </svg> Property Type
                                 </div>
                                 <div>
-                                    <label className="input input-bordered border-0 h-12 bg-blue-100 flex items-center gap-2">
+                                    <label className="input input-bordered border-0 h-12 bg-blue-50 flex items-center gap-2">
                                         <input type="text" className="grow" />
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.43057 8.51192C4.70014 8.19743 5.17361 8.161 5.48811 8.43057L12 14.0122L18.5119 8.43057C18.8264 8.16101 19.2999 8.19743 19.5695 8.51192C19.839 8.82642 19.8026 9.29989 19.4881 9.56946L12.4881 15.5695C12.2072 15.8102 11.7928 15.8102 11.5119 15.5695L4.51192 9.56946C4.19743 9.29989 4.161 8.82641 4.43057 8.51192Z" fill="#EE6611" />
@@ -71,7 +72,7 @@ const BuyerScreensBanner = () => {
                                     </svg>    Budget
                                 </div>
                                 <div>
-                                    <label className="input input-bordered border-0 h-12 bg-blue-100 flex items-center gap-2">
+                                    <label className="input input-bordered border-0 h-12 bg-blue-50 flex items-center gap-2">
                                         <input type="text" className="grow" />
                                     </label>
                                 </div>
@@ -80,10 +81,11 @@ const BuyerScreensBanner = () => {
                     </div>
                     <div className="my-4 ">
                     </div>
-                    <button className="btn btn-error w-full text-lg border-0 text-white hover:text-black   bg-blue-500 "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<Link to="/searchresult">
+<button className="btn btn-error w-full text-lg border-0 text-white hover:text-black   bg-blue-500 "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <circle cx="11.5" cy="11.5" r="9.5" stroke="white" stroke-width="2" />
                         <path d="M18.5 18.5L22 22" stroke="white" stroke-width="2" stroke-linecap="round" />
-                    </svg> Find Property</button>
+                    </svg> Find Property</button></Link>
                 </div>
             </div>
         </div>
