@@ -3,7 +3,7 @@
 const FlatListStat = () => {
     return (
         <div>
-            <div className="max-w-screen-xl mx-auto px-6 grid grid-cols-2 justify-between mt-16 gap-8 md:grid-cols-4 ">
+            <div className="max-w-screen-xl mx-auto  grid grid-cols-2 md:grid-cols-4  justify-between  px-6 mt-16 gap-6 ">
                 <div className="p-4  bg-[#FDF0E7]">
                     <p className="font-bold text-[40px] text-[#D95D0F]">2k+</p>
                     <p>New Flat Listed</p>

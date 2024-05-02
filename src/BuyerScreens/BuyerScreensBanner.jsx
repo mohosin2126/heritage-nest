@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const BuyerScreensBanner = () => {
     return (
         <div>
-            <div className="lg:mb-32">
+            <div className="lg:mb-36">
                 <div className="relative">
                     <img className="w-full" src="https://i.ibb.co/pKBVSTZ/buyer-Banner.jpg" alt="" />
                 </div>
-                <div className="max-w-3xl mx-auto bg-white h-56 text-black p-8 lg:absolute z-40 left-0 right-0 top-36">
-                    <div className="flex gap-4">
+                <div className="max-w-3xl mx-auto bg-white h-56 text-black p-8 lg:absolute z-50 left-0 right-0 top-36">
+                    <div className="flex gap-5">
                         <p className="text-[#0059B1] border-b-[#0059B1] border-b-2  font-medium">Buy</p>
                         <p>Rent</p>
                         <p>PG</p>
